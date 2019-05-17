@@ -1,0 +1,6 @@
+{
+"1" : { "rotation": "1500","temp1": "28.0","temp2": "24.7","flow1": "100","flow2": "100","pressure1": "100","pressure2": "100","turbidity": "88" },
+"2" : { "rotation": "1400","temp1": "38.0","temp2": "24.7","flow1": "100","flow2": "100","pressure1": "100","pressure2": "100","turbidity": "48" },
+"3" : { "rotation": "1500","temp1": "28.0","temp2": "24.7","flow1": "100","flow2": "100","pressure1": "100","pressure2": "100","turbidity": "88" },
+"4" : { "rotation": "1500","temp1": "28.0","temp2": "24.7","flow1": "100","flow2": "100","pressure1": "100","pressure2": "100","turbidity": "88" }
+}
