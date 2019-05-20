@@ -5,6 +5,7 @@ class ObjS {
 
     name () { return this._name}
     behave () {}
+    equip () {}
 }
 
 module.exports = ObjS;
