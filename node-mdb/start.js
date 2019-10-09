@@ -18,3 +18,11 @@ const app = require('./app');
 const server = app.listen(3000, () => {
   console.log(`Express is running on port ${server.address().port}`);
 });
+
+//added by me
+process.on('SIGINT', function() {
+    mongoose.connection.close(function () {
+      console.log('Mongoose disconnected on app termination');
+      process.exit(0);
+    });
+  });
