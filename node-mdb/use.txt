@@ -2,3 +2,4 @@ docker images
 docker container ls 
 docker start mongo
 docker stop mongo
+docker container run --detach --publish 8081:27017 --name mongo mongo:3.4
