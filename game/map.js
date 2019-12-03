@@ -3,6 +3,8 @@ let math = require('mathjs')
 
 //let m = math.matrix([[0, 0, 0], [1, 1, 1], [2, 2, 2]])
 
+let dir = ["N","W","S","E"]
+
 class MapS {
     constructor(size) {
         this._m = math.matrix(math.ones([size, size]))
@@ -18,7 +20,11 @@ class MapS {
     list () {
         return this._m.valueOf()
     }
-    move () {
+    move (direction, object) {
+        let current = find(object)
+        if (direction == dir[0]) {
+            
+        }
         // Can not move outside map
         // Can not move to occupied slot
         // Encouter?
