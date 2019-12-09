@@ -1,17 +1,17 @@
 const getfile = require('./rClass.js')
+const EventEmitter = require('events');
 
-//const x = new getfile('u1.json');
+class MyEmitter extends EventEmitter {}
+const newData = new MyEmitter();
 
 let i;
 let m = [];
 for (i = 1; i < 4; i++) {
-  m[i] = new getfile("u" + i + ".json");
-  
+  m[i] = new getfile("u" + i + ".json", newData);
+  m[i].start();
 }
 
-
-//console.log(x.name);
-
-for (i = 1; i < 4; i++) {
-    console.log(m[i].name);
-  }
+newData.on('event', (file,content) => {  
+  console.log(file + ' says: '  + content);
+  //Send to mqtt.
+});

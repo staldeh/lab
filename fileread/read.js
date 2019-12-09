@@ -7,9 +7,13 @@ const rl = readline.createInterface({
   });
 
 
+function resume() {
+    rl.resume();
+  }
 
 rl.on('line', (line) => {
     rl.pause()
+    setTimeout(resume, 1000);
     if (line == '[') {
         console.log(`Start of file`);
     }
@@ -21,17 +25,3 @@ rl.on('line', (line) => {
     }    
   });
 
-function resume() {
-    rl.resume();
-  }
-  
-
-rl.on('pause', () => {
-        console.log(`Paused...`);
-        setTimeout(resume, 1000);
-
-});
-
-rl.on('resume', () => {
-    console.log('Readline resumed.');
-  });
