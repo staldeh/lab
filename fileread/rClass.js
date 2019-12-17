@@ -1,12 +1,16 @@
 const fs = require('fs');
 const readline = require('readline');
 
+
 const updateTimePump = 10000;
+
+let m;
 class getFile {
  
     constructor (filename, emitter) {
         this.name = filename;
         this.newEmit = emitter;
+        
     }
 
     name () {return this.name}
@@ -25,25 +29,11 @@ class getFile {
         
         rl.on('line', (line) => {
             rl.pause()
-            setTimeout(resume, updateTimePump);
-            if (line == '[') {
-                //null
-            }
-            else if (line == ']') {
-                //null
-            }
-            else {
-                if (line.slice(-1) == ',') {
-                    this.newEmit.emit('line', this.name, line.substring(0, line.length - 1))
-                }
-                else {
-                    this.newEmit.emit('line', this.name, line) 
-                }    
-                //console.log(`Received: ${line} from file: ` + this.name);
-            }
-            
+            SetTimeout(resume, updateTimePump);
 
-          });
+            this.newEmit.emit('line', this.name, JSON.parse(line)) 
+
+        });
 
         rl.on('close', () =>{
             console.log("\x1b[34m","Close " + this.name,'\x1b[0m');

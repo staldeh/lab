@@ -12,7 +12,8 @@ for (i = 1; i < 10; i++) {
 }
 
 newData.on('line', (file,content) => {  
-  console.log('\x1b[32m' + file + ' says:\x1b[0m'  + content);
+  content.ts = new Date();
+  console.log('\x1b[32m' + file + ' says:\x1b[0m'  + JSON.stringify(content));
   //Send to mqtt.
 })
 .on('close', (obj) => {
