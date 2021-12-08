@@ -1,10 +1,10 @@
-const delay = 3;
+const dela = 3;
 var callback = (value) => {
     console.log(value + " seconds later...");
   };
 
 console.log("Now...");
-setTimeout(callback, delay * 1000, delay);
+setTimeout(callback, dela * 1000, delay);
 
 function delay(t, v) {
   return new Promise(function(resolve) { 
