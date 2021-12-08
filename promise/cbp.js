@@ -15,7 +15,7 @@ const doit = (delay) => {
   return new Promise((resolve, reject) => {
     /*stuff using username, password*/
 
-    if ( /* everything turned out fine */ ) {
+    if ( true ) {
       resolve("Stuff worked!");
     } else {
       reject(Error("It broke"));
