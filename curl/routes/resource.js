@@ -1,6 +1,8 @@
 var express = require('express');
 var router = express.Router();
 
+//let i;
+
 
 router.get('/', function(req, res, next) {
     res.send('GET HTTP method on a resource');
