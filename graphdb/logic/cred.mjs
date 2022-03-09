@@ -1,4 +1,4 @@
 const user = 'stal';
-const pw = "hejhoppsan";
+const pw = "hejhopp";
 
 export default { user, pw};
