@@ -2,3 +2,4 @@ node_modules
 bootstrap.min.css
 graphdb/logic/cred.mjs
 
+graphdb/logic/cred.json
