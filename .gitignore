@@ -3,3 +3,5 @@ bootstrap.min.css
 graphdb/logic/cred.mjs
 
 graphdb/logic/cred.json
+.DS_Store
+
