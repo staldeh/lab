@@ -1,0 +1,23 @@
+{
+  "name": "passport",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@types/cookie-parser": "^1.4.6",
+    "@types/express-session": "^1.17.10",
+    "@types/passport": "^1.0.16",
+    "@types/passport-oauth2": "^1.4.15",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.18.2",
+    "express-session": "^1.18.0",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "passport": "^0.7.0",
+    "passport-oauth2": "^1.8.0",
+    "pug": "^3.0.2"
+  }
+}
