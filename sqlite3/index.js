@@ -1,27 +1,17 @@
-import { DatabaseSync } from 'node:sqlite';
+import { DB } from './DB.js';
+import { ContactDB } from './ContactDB.js';
 
 // open a database connection
-const db = new DatabaseSync('test.db');
+const db = new DB('test.db');
 
-// create a new table
-db.exec(`
-    create table if not exists contacts (
-         id integer primary key, 
-         firstName text not null, 
-         lastName text not null, 
-         email text not null    
-    )`);
-
-// insert a new row
-const stmt = db.prepare(
-    `INSERT INTO contacts (firstName, lastName, email) 
-     VALUES (?, ?, ?)`
-  );
-  
-  const { lastInsertRowid } = stmt.run('Jane', 'Doe', 'jane.doe@example.com');
-  
-  console.log(`Inserted contact id: ${lastInsertRowid}`);
-  
+const contactDB = new ContactDB(db.conn);
+/* const contact = contactDB.create({
+  firstName: 'Jane',
+  lastName: 'Doe',
+  email: 'jane.doe@example.com',
+}); */
+const contact = contactDB.findById(1002);
+console.log(contact);
 
 // close the database
-if (db) db.close();
+db.close();
