@@ -1,0 +1,14 @@
+{
+  "name": "sqlite3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+
+"scripts": {
+  "start": "node --experimental-sqlite index.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
