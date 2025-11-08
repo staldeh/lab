@@ -1,1 +1,520 @@
-{"header":{"formatType":0,"trackCount":1,"ticksPerBeat":96},"tracks":[[{"deltaTime":0,"type":"meta","subtype":"trackName","text":"Bossa Nova (85 BPM)\u0000"},{"deltaTime":0,"type":"meta","subtype":"timeSignature","numerator":4,"denominator":4,"metronome":36,"thirtyseconds":8},{"deltaTime":0,"type":"meta","subtype":"timeSignature","numerator":4,"denominator":4,"metronome":36,"thirtyseconds":8},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":36,"velocity":70,"subtype":"noteOn"},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":38,"velocity":96,"subtype":"noteOn"},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":42,"velocity":127,"subtype":"noteOn"},{"deltaTime":24,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":38,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":42,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":42,"velocity":94,"subtype":"noteOn"},{"deltaTime":24,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":42,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":42,"velocity":89,"subtype":"noteOn"},{"deltaTime":22,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":36,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":36,"velocity":58,"subtype":"noteOn"},{"deltaTime":1,"channel":0,"type":"channel","noteNumber":38,"velocity":93,"subtype":"noteOn"},{"deltaTime":1,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":42,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":42,"velocity":110,"subtype":"noteOn"},{"deltaTime":23,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":36,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":36,"velocity":65,"subtype":"noteOn"},{"deltaTime":0,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":38,"velocity":64},{"deltaTime":1,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":42,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":42,"velocity":96,"subtype":"noteOn"},{"deltaTime":24,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":42,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":42,"velocity":87,"subtype":"noteOn"},{"deltaTime":22,"channel":0,"type":"channel","noteNumber":38,"velocity":105,"subtype":"noteOn"},{"deltaTime":1,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":42,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":42,"velocity":107,"subtype":"noteOn"},{"deltaTime":23,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":36,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":36,"velocity":55,"subtype":"noteOn"},{"deltaTime":0,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":38,"velocity":64},{"deltaTime":1,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":42,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":42,"velocity":91,"subtype":"noteOn"},{"deltaTime":23,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":42,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":42,"velocity":101,"subtype":"noteOn"},{"deltaTime":1,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":36,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":36,"velocity":74,"subtype":"noteOn"},{"deltaTime":23,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":42,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":42,"velocity":89,"subtype":"noteOn"},{"deltaTime":24,"channel":0,"type":"channel","noteNumber":38,"velocity":106,"subtype":"noteOn"},{"deltaTime":0,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":42,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":42,"velocity":127,"subtype":"noteOn"},{"deltaTime":24,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":36,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":36,"velocity":48,"subtype":"noteOn"},{"deltaTime":0,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":38,"velocity":64},{"deltaTime":1,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":42,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":42,"velocity":94,"subtype":"noteOn"},{"deltaTime":23,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":42,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":42,"velocity":92,"subtype":"noteOn"},{"deltaTime":1,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":36,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":36,"velocity":62,"subtype":"noteOn"},{"deltaTime":23,"channel":0,"type":"channel","noteNumber":38,"velocity":103,"subtype":"noteOn"},{"deltaTime":0,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":42,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":42,"velocity":116,"subtype":"noteOn"},{"deltaTime":25,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":38,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":42,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":42,"velocity":96,"subtype":"noteOn"},{"deltaTime":24,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":42,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":42,"velocity":87,"subtype":"noteOn"},{"deltaTime":1,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":36,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":36,"velocity":42,"subtype":"noteOn"},{"deltaTime":22,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":36,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":42,"velocity":64},{"deltaTime":0,"channel":0,"type":"channel","noteNumber":42,"velocity":106,"subtype":"noteOn"},{"deltaTime":2,"channel":0,"type":"channel","subtype":"noteOff","noteNumber":42,"velocity":64},{"deltaTime":0,"type":"meta","subtype":"endOfTrack"}]]}
+{
+    "header": {
+        "formatType": 0,
+        "trackCount": 1,
+        "ticksPerBeat": 96
+    },
+    "tracks": [
+        [
+            {
+                "deltaTime": 0,
+                "type": "meta",
+                "subtype": "trackName",
+                "text": "Bossa Nova (85 BPM)\u0000"
+            },
+            {
+                "deltaTime": 0,
+                "type": "meta",
+                "subtype": "timeSignature",
+                "numerator": 4,
+                "denominator": 4,
+                "metronome": 36,
+                "thirtyseconds": 8
+            },
+            {
+                "deltaTime": 0,
+                "type": "meta",
+                "subtype": "timeSignature",
+                "numerator": 4,
+                "denominator": 4,
+                "metronome": 36,
+                "thirtyseconds": 8
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 36,
+                "velocity": 70,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 38,
+                "velocity": 96,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 42,
+                "velocity": 127,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 24,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 38,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 42,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 42,
+                "velocity": 94,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 24,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 42,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 42,
+                "velocity": 89,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 22,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 36,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 36,
+                "velocity": 58,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 1,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 38,
+                "velocity": 93,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 1,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 42,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 42,
+                "velocity": 110,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 23,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 36,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 36,
+                "velocity": 65,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 38,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 1,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 42,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 42,
+                "velocity": 96,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 24,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 42,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 42,
+                "velocity": 87,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 22,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 38,
+                "velocity": 105,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 1,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 42,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 42,
+                "velocity": 107,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 23,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 36,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 36,
+                "velocity": 55,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 38,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 1,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 42,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 42,
+                "velocity": 91,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 23,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 42,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 42,
+                "velocity": 101,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 1,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 36,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 36,
+                "velocity": 74,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 23,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 42,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 42,
+                "velocity": 89,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 24,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 38,
+                "velocity": 106,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 42,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 42,
+                "velocity": 127,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 24,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 36,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 36,
+                "velocity": 48,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 38,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 1,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 42,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 42,
+                "velocity": 94,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 23,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 42,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 42,
+                "velocity": 92,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 1,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 36,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 36,
+                "velocity": 62,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 23,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 38,
+                "velocity": 103,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 42,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 42,
+                "velocity": 116,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 25,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 38,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 42,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 42,
+                "velocity": 96,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 24,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 42,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 42,
+                "velocity": 87,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 1,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 36,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 36,
+                "velocity": 42,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 22,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 36,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 42,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "channel": 0,
+                "type": "channel",
+                "noteNumber": 42,
+                "velocity": 106,
+                "subtype": "noteOn"
+            },
+            {
+                "deltaTime": 2,
+                "channel": 0,
+                "type": "channel",
+                "subtype": "noteOff",
+                "noteNumber": 42,
+                "velocity": 64
+            },
+            {
+                "deltaTime": 0,
+                "type": "meta",
+                "subtype": "endOfTrack"
+            }
+        ]
+    ]
+}
